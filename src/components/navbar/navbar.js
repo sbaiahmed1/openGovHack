@@ -1,24 +1,34 @@
-import React from 'react';
-import {AppBar,Toolbar,Typography,Button,IconButton} from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
-import useStyles from './navbarStyle'
+import React, {Component} from 'react';
+import {Link} from "react-router";
+import SignedInUser from './signedInUser/signedInUser'
+import SignedOutUser from "./signedOutUser/signedOutUser";
 
-export default function ButtonAppBar() {
-    const classes = useStyles();
+const digicom = require('../../assets/logo_digicom.png');
 
-    return (
-        <div className={classes.root}>
-            <AppBar position="static">
-                <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        News
-                    </Typography>
-                    <Button color="inherit">Login</Button>
-                </Toolbar>
-            </AppBar>
-        </div>
-    );
+export default class NavbarComponent extends Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        let buttonsControl;
+        if (this.props.isLogged === 'true') {
+            buttonsControl = <SignedInUser/>
+        } else {
+            buttonsControl = <SignedOutUser/>
+        }
+        return (
+            <div className="navbar-expand fixed-top">
+                <nav className="nav-wrapper white darken-3">
+                    <div className="container">
+                        <Link to='/' className='brand-logo center'>
+                            <img src={digicom} style={{height: 50, width: 100}}/>
+                        </Link>
+                    </div>
+                    <div className={'right'}>
+                        {buttonsControl}
+                    </div>
+                </nav>
+            </div>
+        );
+    }
 }

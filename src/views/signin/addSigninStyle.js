@@ -7,7 +7,7 @@ const addloginStyle = {
         marginLeft: '45%',
         marginTop:'5%',
         alignSelf:'Center',
-        color:'white',
+        // color:'white',
         fontSize:30
     },
     inputContainer:{

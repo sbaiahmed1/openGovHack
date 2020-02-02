@@ -2,19 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fddda3cb-deee-423d-9b93-76a134c2948e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/opengov.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ahmed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/subvention.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carousel/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carousel/carouselStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/drawer/drawer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/signedInUser/signedInUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/signedOutUser/signedOutUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demande_subv/demande_subv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/landing/landing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/landing/landingStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/signin/addSigninStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/signin/signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/signup/addregisterStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/signup/signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbarStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbarStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,17 +32,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Wq4RagC4VNJBAb5Sca0nLh8TSr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -83,21 +104,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579863783398</updated>
-      <workItem from="1579863786259" duration="3649000" />
+      <workItem from="1579863786259" duration="28359000" />
+      <workItem from="1579950200908" duration="23147000" />
+      <workItem from="1579994622904" duration="11959000" />
+      <workItem from="1580030726216" duration="1363000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1579868136835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579868136835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1579866134100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1579866134100" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579866137473">
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579950028365">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579866137473" />
+    <state x="363" y="101" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1579950028365" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579868135039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579868135039" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579868142122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579868142122" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579953355256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1579953355256" />
   </component>
 </project>
